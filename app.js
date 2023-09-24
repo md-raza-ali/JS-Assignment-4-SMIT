@@ -172,7 +172,20 @@
 // alert(`Output: ${result}`)
 
 // ANSWER NO: 12
-let num = 35.36;
-document.write(`Number: ${num}`);
-num =  num.toString();
-document.write(`<br>Result: ${num}`);
+// let num = 35.36;
+// document.write(`Number: ${num}`);
+// num = num.toString().replace(".", "");
+// document.write(`<br>Result: ${num}`);
+
+// ANSWER NO: 13
+let input = prompt("Enter a username..");
+for (let i = 0; i < input.length; i++) {
+  if (
+    input.charAt(i) === "@" ||
+    input.charAt(i) === "," ||
+    input.charAt(i) === "." ||
+    input.charAt(i) === "!"
+  ) {
+    alert("Please enter a valid username..");
+  }
+}
