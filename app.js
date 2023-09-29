@@ -178,14 +178,32 @@
 // document.write(`<br>Result: ${num}`);
 
 // ANSWER NO: 13
-let input = prompt("Enter a username..");
-for (let i = 0; i < input.length; i++) {
-  if (
-    input.charAt(i) === "@" ||
-    input.charAt(i) === "," ||
-    input.charAt(i) === "." ||
-    input.charAt(i) === "!"
-  ) {
-    alert("Please enter a valid username..");
-  }
-}
+// let input = prompt("Enter a username..");
+// for (let i = 0; i < input.length; i++) {
+//   if (
+//     input.charAt(i) == "@" ||
+//     input.charAt(i) == "," ||
+//     input.charAt(i) == "." ||
+//     input.charAt(i) == "!"
+//   ) {
+//     alert("The username cannot contain these symbols (@ , . !)");
+//   }
+// }
+// alert("Your username is " + input)
+
+// ANSWER NO: 14
+// let arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+// let userInput = prompt(
+//   "Welcome to ABC Bakery. What do you want to order Sir/Ma'am..?"
+// );
+// let lower = userInput.toLowerCase();
+
+// if (lower.indexOf(userInput) !== -1) {
+//   alert(`${userInput} is available in our bakery`);
+// } else {
+//   alert(`${userInput} is not available in our bakery `);
+// }
+
+// ANSWER NO: 15
+
+
